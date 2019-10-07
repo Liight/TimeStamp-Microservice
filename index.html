@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+  <style>
+    body {
+      width: 99%;
+      height: 80vh;
+      font-family: Roboto, sans-serif;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #03396c;
+      /*       color: #e3dac9; */
+      color: #b3cde0;
+    }
+    .welcome {
+      width: auto;
+      max-width: 100vw;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      background-color: #005b96;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 2px 2px 5px #011f4b;
+    }
+    h1 {
+      margin-bottom: 0px;
+    }
+    h4 {
+      margin: 0px 0px 0px 5px;
+    }
+    p {
+      font-size: 18px;
+      margin: 1px 0px 1px 0px;
+    }
+    .instruct {
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    a:link {
+      color: #b3cde0;
+      text-decoration: none;
+    }
+    a:visited {
+      color: #b3cde0;;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: hotpink;
+      text-decoration: underline;
+    }
+
+    a:active {
+      color: #b3cde0;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="welcome">
+    <h1>
+      Timestamp Microservice
+    </h1>
+    <h4>
+      Powered by NodeJS, Express and Glitch
+    </h4>
+    <p class="instruct">Instructions</p>
+    <p>
+      Enter a timestamp in the <code>url</code> to use the timestamp
+      microservice.<br />
+    </p>
+    <p class="instruct">
+      Example Usage
+    </p>
+    <p>
+      <code
+        ><a
+          href="https://stitch-deltadromeus.glitch.me/api/timestamp/2019-01-12"
+          >https://stitch-deltadromeus.glitch.me/api/timestamp/2019-01-12</a
+        ></code
+      >
+    </p>
+    <p>
+      <code
+        ><a
+          href="https://stitch-deltadromeus.glitch.me/api/timestamp/1570486448"
+          >https://stitch-deltadromeus.glitch.me/api/timestamp/1570486448</a
+        ></code
+      >
+    </p>
+    <p class="instruct">
+      Example Output
+    </p>
+    <p>
+      <code>{"natural time":"January 12th 2019","unix time":"1547251200"}</code>
+    </p>
+  </div>
+</body>
